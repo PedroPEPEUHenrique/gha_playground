@@ -18,3 +18,7 @@ jobs:
     steps:
       - run: echo 📅 Hoje é $(TZ="America/Sao_Paulo" date +"%d/%m/%Y %H:%M:%S")
       # - run: echo "📅 Agore é $(time)"
+      - run: ls -la
+
+      - uses: actions/checkout@v6
+      - run: ls -la
