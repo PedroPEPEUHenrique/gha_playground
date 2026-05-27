@@ -11,3 +11,10 @@ jobs:
     steps:
       - run: echo "🎉​ The job was automatically triggered by a event"
       - run: echo "🐧 This job is now running on a server hosted by a Github!"
+
+  segundo-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "📅 Hoje é $(date)"
+      # - run: echo "📅 Agore é $(time)"
