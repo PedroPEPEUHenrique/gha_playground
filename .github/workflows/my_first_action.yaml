@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "📅 Hoje é $(date)"
+      - run: echo "📅 Hoje é $(TZ="America/Sao_Paulo" date +"%d/%m/%Y %H:%M:%S")
       # - run: echo "📅 Agore é $(time)"
