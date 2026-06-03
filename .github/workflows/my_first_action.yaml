@@ -6,11 +6,11 @@ on:
       - main
       - master
   workflow_dispatch:
-  inputs:
-    teste:
-      description: "my first input"
-      required: true
-      type: string
+    inputs:
+      teste:
+        description: "my first input"
+        required: true
+        type: string
 
 jobs:
   meu-job:
